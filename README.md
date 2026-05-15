@@ -268,3 +268,80 @@ El sistema elimina estudiantes manteniendo correctamente la estructura del árbo
 El programa finaliza correctamente cuando el usuario selecciona la opción salir.
 
 ![Salir](assets/Salir-java.png)
+
+# Uso de GitHub
+
+GitHub fue utilizado como herramienta de control de versiones para almacenar, organizar y respaldar el desarrollo del proyecto.
+
+Durante la realización de la práctica se utilizaron comandos fundamentales como:
+
+- `git add .`
+- `git commit -m "mensaje"`
+- `git push`
+- `git status`
+- `git log --oneline`
+
+El uso de GitHub permitió mantener un historial de cambios mediante commits, facilitando el seguimiento del desarrollo del sistema académico implementado con Árboles Binarios de Búsqueda.
+
+Además, el repositorio permitió almacenar el código fuente, evidencias de ejecución y documentación del proyecto de manera organizada.
+
+---
+
+# Explicación del funcionamiento del árbol binario de búsqueda
+
+El sistema académico fue implementado utilizando un Árbol Binario de Búsqueda (BST), donde cada estudiante es almacenado dentro de un nodo del árbol.
+
+La organización de los estudiantes se realiza utilizando la cédula como criterio principal de comparación.
+
+## Funcionamiento
+
+- Si la cédula del nuevo estudiante es menor que la del nodo actual, se inserta en el subárbol izquierdo.
+- Si la cédula es mayor, se inserta en el subárbol derecho.
+
+Gracias a esta estructura, el árbol mantiene automáticamente los datos organizados, permitiendo realizar búsquedas y recorridos de manera eficiente.
+
+## Ejemplo
+
+Si se insertan las siguientes cédulas:
+
+```text
+0303
+0101
+0505
+0202
+0404
+```
+
+El árbol se organiza jerárquicamente según las comparaciones realizadas durante la inserción.
+
+El recorrido Inorden mostrará automáticamente:
+
+```text
+0101
+0202
+0303
+0404
+0505
+```
+
+demostrando que los datos quedan ordenados ascendentemente dentro del BST.
+
+---
+
+# Conclusión sobre el uso de IA
+
+Durante el desarrollo de la práctica se utilizó inteligencia artificial como herramienta de apoyo para reforzar conceptos relacionados con Árboles Binarios de Búsqueda, recursividad, BFS, estructuras dinámicas y organización del código en Java.
+
+La IA fue utilizada principalmente para resolver dudas conceptuales, comprender errores de compilación y mejorar la documentación del proyecto. Sin embargo, el proceso de implementación, pruebas y adaptación del sistema fue realizado progresivamente por el estudiante como parte del aprendizaje práctico.
+
+El uso de inteligencia artificial permitió optimizar el tiempo de desarrollo y mejorar la comprensión de las estructuras de datos implementadas.
+
+---
+
+# Conclusión general del examen
+
+La práctica permitió implementar correctamente un sistema académico utilizando Árboles Binarios de Búsqueda en Java, aplicando conceptos fundamentales de estructuras de datos y Programación Orientada a Objetos.
+
+Además, se logró utilizar recorridos Inorden, Preorden, Postorden y BFS para procesar la información almacenada dentro del árbol, demostrando el funcionamiento eficiente de las estructuras jerárquicas.
+
+El desarrollo del proyecto fortaleció conocimientos relacionados con recursividad, colas, referencias, modularización del código y control de versiones mediante GitHub, integrando teoría y práctica en un caso aplicado real.
