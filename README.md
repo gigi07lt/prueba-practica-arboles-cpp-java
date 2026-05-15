@@ -145,37 +145,9 @@ Funciones principales:
 - Búsqueda de notas mayores y menores
 - Mostrar aprobados y reprobados
 
+
+
 ---
-
-# Estructura del proyecto
-
-```text
-prueba-practica-arboles-cpp-java/
-│
-├── assets/
-│   ├── Aprobados-java.png
-│   ├── BFS-java.png
-│   ├── BuscarporCedula-java.png
-│   ├── CalcularAltura-java.png
-│   ├── ContarEstudiante-java.png
-│   ├── EliminarEstudiante-java.png
-│   ├── Inorden-java.png
-│   ├── InsertarEstudiante-java.png
-│   ├── MayorNota-java.png
-│   ├── MenorNota-java.png
-│   ├── menu-java.png
-│   ├── Postorden-java.png
-│   ├── Preorden-java.png
-│   ├── Reprobados-java.png
-│   └── Salir-java.png
-│
-├── java/
-│   ├── ArbolBST.java
-│   ├── Estudiante.java
-│   ├── Main.java
-│   └── Nodo.java
-│
-└── README.md
 
 # Evidencias de ejecución
 
